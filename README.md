@@ -35,3 +35,7 @@ The following excerpts from the code script were completed with the help of a TA
          GreatDecr = ws.Cells(i, 11).Value
          ws.Cells(3, 16).Value = ws.Cells(i, 9).Value
 
+            
+        'Djust column width automatically
+        Worksheets(WorksheetName).Columns("A:Z").AutoFit
+
